@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="school project" thread-count="3" >
+
+<test name="testGuru">
+<parameter name="Browser" value="chrome" />
+<classes>
+<class name="Amazon.School.logintc"></class>
+ 
+</classes>
+</test>
+</suite>
